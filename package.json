@@ -1,0 +1,26 @@
+{
+  "name": "juf-gpt-backend",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/finn7865/juf-gpt-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/finn7865/juf-gpt-backend/issues"
+  },
+  "homepage": "https://github.com/finn7865/juf-gpt-backend#readme",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "node-fetch": "^3.3.2",
+    "ws": "^8.18.2"
+  },
+  "description": ""
+}
