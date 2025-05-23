@@ -32,6 +32,7 @@ wss.on('connection', (ws) => {
     console.log('📥 Ontvangen audio van frontend');
 
     const antwoordTekst = "Hoi! Wat leuk dat je met mij praat. Wat wil je leren vandaag?";
+console.log("🗣️ GPT antwoord:", antwoordTekst);
 
     try {
       const response = await fetch('https://api.openai.com/v1/audio/speech', {
